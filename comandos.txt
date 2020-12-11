@@ -1,0 +1,17 @@
+executar = node app.js
+
+
+--BANCO -
+
+CREATE TABLE clientes(
+id int(4) AUTO_INCREMENT,
+nome varchar(255),
+sobrenome varchar(255),
+empresa varchar(255),
+PRIMARY KEY (id)
+);
+
+insert into clientes (id, nome, sobrenome,empresa)
+values (3, 'analista', 'tecnologia', 'treinamento');
+
+select * from clientes
