@@ -1,5 +1,8 @@
 executar = node app.js
 
+PARA INSTALAR QQL RECURSOS NO NODE
+npm install bootstrap
+
 
 --BANCO -
 
